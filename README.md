@@ -4,10 +4,15 @@
 This project presents a deep learning-based system for detecting and segmenting colonic polyps in pediatric colonoscopy images. It applies instance segmentation to achieve precise localization at the pixel level.
 
 ## Dataset
-The dataset used in this study consists of annotated pediatric colonoscopy images. 
-Due to privacy and research constraints, the annotated dataset is not publicly available.
+The dataset used in this project consists of pediatric colonoscopy images sourced from a publicly available dataset:
 
-For demonstration purposes, sample images or publicly available datasets may be used.
+https://academictorrents.com/details/d8653db45e7f111dc2c1b595bdac7ccf695efcfd
+
+The dataset was manually annotated as part of this research to support supervised learning for polyp detection and segmentation.
+
+Due to research and data-sharing restrictions, the annotated dataset is not publicly available.
+
+Users may access the original unannotated dataset using the link above and apply their own annotation pipeline if needed.
 
 ## Features
 - Instance segmentation for accurate polyp detection
