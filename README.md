@@ -42,6 +42,9 @@ Users may access the original unannotated dataset using the link above and apply
 - Gradio
 
 ## How to Run
-```bash
+
+1. Install dependencies:
 pip install -r requirements.txt
-python app.py
+
+2. Run inference:
+python src/predict.py
